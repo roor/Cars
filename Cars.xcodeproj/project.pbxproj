@@ -13,6 +13,17 @@
 		9C7442C622FE7F0A00F6666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7442C522FE7F0A00F6666F /* Assets.xcassets */; };
 		9C7442C922FE7F0A00F6666F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7442C722FE7F0A00F6666F /* LaunchScreen.storyboard */; };
 		9C7442D422FE7F0A00F6666F /* CarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442D322FE7F0A00F6666F /* CarsTests.swift */; };
+		9C7442E322FE7FB800F6666F /* User story.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9C7442E022FE7FB800F6666F /* User story.rtf */; };
+		9C7442E422FE7FB800F6666F /* Prices.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C7442E122FE7FB800F6666F /* Prices.json */; };
+		9C7442E522FE7FB800F6666F /* Cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C7442E222FE7FB800F6666F /* Cars.json */; };
+		9C7442E722FE805900F6666F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442E622FE805900F6666F /* Car.swift */; };
+		9C7442E922FE806500F6666F /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442E822FE806500F6666F /* Price.swift */; };
+		9C7442EC22FE876600F6666F /* LocalDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442EB22FE876600F6666F /* LocalDataProvider.swift */; };
+		9C7442EF22FE918900F6666F /* FileRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442EE22FE918900F6666F /* FileRepresentable.swift */; };
+		9C7442F122FE954F00F6666F /* CarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442F022FE954F00F6666F /* CarsViewModel.swift */; };
+		9C7442F322FEA28700F6666F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442F222FEA28700F6666F /* TableViewCell.swift */; };
+		9C7442F622FEB49500F6666F /* Showable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442F522FEB49500F6666F /* Showable.swift */; };
+		9C7442F922FEBF2F00F6666F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7442F822FEBF2F00F6666F /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		9C7442CF22FE7F0A00F6666F /* CarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7442D322FE7F0A00F6666F /* CarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTests.swift; sourceTree = "<group>"; };
 		9C7442D522FE7F0A00F6666F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7442E022FE7FB800F6666F /* User story.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "User story.rtf"; sourceTree = "<group>"; };
+		9C7442E122FE7FB800F6666F /* Prices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Prices.json; sourceTree = "<group>"; };
+		9C7442E222FE7FB800F6666F /* Cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cars.json; sourceTree = "<group>"; };
+		9C7442E622FE805900F6666F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9C7442E822FE806500F6666F /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		9C7442EB22FE876600F6666F /* LocalDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataProvider.swift; sourceTree = "<group>"; };
+		9C7442EE22FE918900F6666F /* FileRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRepresentable.swift; sourceTree = "<group>"; };
+		9C7442F022FE954F00F6666F /* CarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewModel.swift; sourceTree = "<group>"; };
+		9C7442F222FEA28700F6666F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9C7442F522FEB49500F6666F /* Showable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showable.swift; sourceTree = "<group>"; };
+		9C7442F822FEBF2F00F6666F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +99,21 @@
 		9C7442BD22FE7F0900F6666F /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				9C7442ED22FE917700F6666F /* Protocols */,
+				9C7442F722FEBF1900F6666F /* Extensions */,
+				9C7442EA22FE872300F6666F /* DataProviders */,
+				9C7442DF22FE7F4C00F6666F /* ViewModels */,
+				9C7442DE22FE7F4000F6666F /* Models */,
 				9C7442BE22FE7F0900F6666F /* AppDelegate.swift */,
 				9C7442C022FE7F0900F6666F /* ViewController.swift */,
+				9C7442F422FEB08700F6666F /* Views */,
 				9C7442C222FE7F0900F6666F /* Main.storyboard */,
 				9C7442C522FE7F0A00F6666F /* Assets.xcassets */,
 				9C7442C722FE7F0A00F6666F /* LaunchScreen.storyboard */,
 				9C7442CA22FE7F0A00F6666F /* Info.plist */,
+				9C7442E222FE7FB800F6666F /* Cars.json */,
+				9C7442E122FE7FB800F6666F /* Prices.json */,
+				9C7442E022FE7FB800F6666F /* User story.rtf */,
 			);
 			path = Cars;
 			sourceTree = "<group>";
@@ -94,6 +125,56 @@
 				9C7442D522FE7F0A00F6666F /* Info.plist */,
 			);
 			path = CarsTests;
+			sourceTree = "<group>";
+		};
+		9C7442DE22FE7F4000F6666F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C7442E622FE805900F6666F /* Car.swift */,
+				9C7442E822FE806500F6666F /* Price.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C7442DF22FE7F4C00F6666F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9C7442F022FE954F00F6666F /* CarsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9C7442EA22FE872300F6666F /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				9C7442EB22FE876600F6666F /* LocalDataProvider.swift */,
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
+		9C7442ED22FE917700F6666F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9C7442EE22FE918900F6666F /* FileRepresentable.swift */,
+				9C7442F522FEB49500F6666F /* Showable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9C7442F422FEB08700F6666F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C7442F222FEA28700F6666F /* TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C7442F722FEBF1900F6666F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C7442F822FEBF2F00F6666F /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7442E422FE7FB800F6666F /* Prices.json in Resources */,
+				9C7442E322FE7FB800F6666F /* User story.rtf in Resources */,
 				9C7442C922FE7F0A00F6666F /* LaunchScreen.storyboard in Resources */,
 				9C7442C622FE7F0A00F6666F /* Assets.xcassets in Resources */,
 				9C7442C422FE7F0900F6666F /* Main.storyboard in Resources */,
+				9C7442E522FE7FB800F6666F /* Cars.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7442F122FE954F00F6666F /* CarsViewModel.swift in Sources */,
+				9C7442F322FEA28700F6666F /* TableViewCell.swift in Sources */,
+				9C7442EC22FE876600F6666F /* LocalDataProvider.swift in Sources */,
+				9C7442EF22FE918900F6666F /* FileRepresentable.swift in Sources */,
 				9C7442C122FE7F0900F6666F /* ViewController.swift in Sources */,
+				9C7442E922FE806500F6666F /* Price.swift in Sources */,
 				9C7442BF22FE7F0900F6666F /* AppDelegate.swift in Sources */,
+				9C7442F622FEB49500F6666F /* Showable.swift in Sources */,
+				9C7442F922FEBF2F00F6666F /* String+Extensions.swift in Sources */,
+				9C7442E722FE805900F6666F /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
